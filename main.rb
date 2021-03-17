@@ -1,7 +1,9 @@
 def bubble_sort(arr)
-  # iterate over array with item and index? just index
+  # iterate over array with item and index
   arr.each_with_index do |n, idx|
-    
+    if arr[idx] > arr[idx+1]
+      
+    end 
   end
 end
 
