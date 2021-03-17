@@ -16,3 +16,7 @@ end
 
 arr = [2, 1, 3, 5, 4, 7, 6]
 bubble_sort(arr)
+
+def bubble_sort_by(array)
+  i = arr.length - 1
+end
