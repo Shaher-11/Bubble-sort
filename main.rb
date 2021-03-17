@@ -17,7 +17,7 @@ end
 arr = [2, 1, 3, 5, 4, 7, 6]
 bubble_sort(arr)
 
-def bubble_sort_by(array)
+def bubble_sort_by(arr)
   idx = 0
   i = 0
   while idx < arr.length-1
@@ -25,4 +25,16 @@ def bubble_sort_by(array)
       arr[idx], arr[idx + 1] = arr[idx + 1], arr[idx]
       i += 1
     end
+    if idx == arr.length - 2 && i > 0
+      idx = 0
+      i = 0
+    else
+      idx += 1
+    end
+  end
+  arr
+
 end
+
+p bubble_sort_by(["hi","hello","hey"]) {|left,right|
+  left.length - right.length} 
