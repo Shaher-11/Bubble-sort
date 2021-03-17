@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 def bubble_sort(arr)
   i = arr.length - 1
 
@@ -20,21 +18,17 @@ bubble_sort(arr)
 def bubble_sort_by(arr)
   idx = 0
   i = 0
-  while idx < arr.length-1
-    if yield(arr[idx],arr[idx + 1]) > 0
+  while idx < (arr.length - 1)
+    if yield(arr[idx], arr[idx + 1]).positive?
       arr[idx], arr[idx + 1] = arr[idx + 1], arr[idx]
       i += 1
-    end
-    if idx == arr.length - 2 && i > 0
-      idx = 0
+    elsif idx == arr.length - 2 && i.positive?
       i = 0
     else
       idx += 1
     end
   end
   arr
-
 end
 
-p bubble_sort_by(["hi","hello","hey"]) {|left,right|
-  left.length - right.length} 
+p bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }
