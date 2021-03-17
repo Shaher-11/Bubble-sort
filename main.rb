@@ -18,5 +18,11 @@ arr = [2, 1, 3, 5, 4, 7, 6]
 bubble_sort(arr)
 
 def bubble_sort_by(array)
-  i = arr.length - 1
+  idx = 0
+  i = 0
+  while idx < arr.length-1
+    if yield(arr[idx],arr[idx + 1]) > 0
+      arr[idx], arr[idx + 1] = arr[idx + 1], arr[idx]
+      i += 1
+    end
 end
