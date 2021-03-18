@@ -24,6 +24,7 @@ def bubble_sort_by(arr)
       i += 1
     elsif idx == arr.length - 2 && i.positive?
       i = 0
+      idx = 0
     else
       idx += 1
     end
