@@ -1,59 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Bubble sort algorithm
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
+> Bubble sort algotithm - Without using the sort method, we write an algorithm to sort an array of numbers in ascending order.
+> Bubble sort by algorithm uses yield to get a code block and sort an array of strings in ascending order.  
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
 
-## Live Demo
+## Live Demo on Repl
 
-[Live Demo Link](https://livedemo.com)
+[View on Repl](https://replit.com/join/onquaizu-shahershamroukh )
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+- Ruby installed on your computer
 
 ### Install
+- gem install rubocop
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
-
+- for sorting either an array of numbers or strings.
 
 ## Authors
 
-👤 **Author1**
+👤 **Shaher**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@shaher-shamroukh](https://github.com/Shaher-11/ )
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shaher-shamroukh/ )
 
-👤 **Author2**
+👤 **Kaboha Jean Mark**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/KabohaJeanMark)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jean-mark-kaboha-software-engineer/)
 
 ## 🤝 Contributing
 
@@ -67,9 +49,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Microverse and the Odin project.
 
 ## 📝 License
 
